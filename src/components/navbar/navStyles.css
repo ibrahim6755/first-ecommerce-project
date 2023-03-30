@@ -1,0 +1,35 @@
+nav {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    flex: 1;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+nav .btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+nav .btn:hover{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
