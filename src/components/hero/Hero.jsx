@@ -20,8 +20,9 @@ function Hero() {
             <div className="overlay"><Navbar/></div>
             <div className="carousel-caption d-none d-md-block">
               <h5 className='mb-5'>The latest product from the ecoshop</h5>
-              <h2 className='text-uppercase'>Look beautiful</h2>
+              <h2 className='text-uppercase mt-5'>Look beautiful</h2>
               <h1 className='text-uppercase fw-bold'>this season</h1>
+              <a href="#" className="btn mx-2 text-uppercase px-4 py-2 fw-bold mt-4">shop now</a>
             </div>
           </div>
           <div className="carousel-item">
