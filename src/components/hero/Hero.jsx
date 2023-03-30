@@ -7,7 +7,6 @@ import Navbar from '../navbar/Navbar'
 function Hero() {
   return (
     <>
-      
 
       <div id="carouselExampleCaptions" className="carousel slide">
         <div className="carousel-indicators">
@@ -17,7 +16,7 @@ function Hero() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={heroimg} className="d-block w-100" alt="..." />
-            <div className="overlay"><Navbar/></div>
+            <div className="overlay"><Navbar /></div>
             <div className="carousel-caption d-none d-md-block">
               <h5 className='mb-5'>The latest product from the ecoshop</h5>
               <h2 className='text-uppercase mt-5'>Look beautiful</h2>
@@ -35,6 +34,7 @@ function Hero() {
           </div>
         </div>
       </div>
+
     </>
   )
 }

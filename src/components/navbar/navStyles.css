@@ -26,7 +26,8 @@ nav .btn {
     padding: 10px 30px;
     border-radius: 20px;
 }
-nav .btn:hover{
+
+nav .btn:hover {
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;

@@ -6,27 +6,32 @@
     left: 0;
     background-color: rgb(25, 1, 80);
     opacity: 0.6;
-  }
-.carousel-caption{
+}
+
+.carousel-caption {
     position: absolute;
     top: 55%;
     left: 50%;
-    transform: translate(-50% , -55%);
+    transform: translate(-50%, -55%);
     width: 100%;
 }
-.carousel-caption h5{
+
+.carousel-caption h5 {
     color: rgba(255, 20, 145, 0.774);
     letter-spacing: -0.5px;
 }
-.carousel-caption h2{
+
+.carousel-caption h2 {
     font-size: 50px;
     letter-spacing: 10px;
 }
-.carousel-caption h1{
+
+.carousel-caption h1 {
     font-size: 90px;
     letter-spacing: 18px;
 }
-.carousel-caption .btn{
+
+.carousel-caption .btn {
     border: none;
     outline: none;
     border-radius: 18px;
