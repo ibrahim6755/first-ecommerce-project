@@ -1,7 +1,7 @@
 .card-body.text-right {
     text-align: right;
   }
-  .img{
+  .img-right{
     display: flex;
     justify-content: end;
   }

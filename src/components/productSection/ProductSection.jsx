@@ -1,13 +1,25 @@
 import React from 'react'
-import ProductCard from '../productCard/ProductCard'
+import ProductCardLeft from '../productCardLeft/ProductCardLeft'
+import ProductCardRight from '../productCardRight/ProductCardRight'
 
 function ProductSection() {
   return (
     <div className="container">
         <div className="product-section-wrapper">
-        <div className="row">
+        <div className="row py-5 px-5">
             <div className="col-md-6">
-                <ProductCard/>
+                <ProductCardLeft/>
+            </div>
+            <div className="col-md-6">
+                <ProductCardRight/>
+            </div>
+        </div>
+        <div className="row py-5 px-5">
+        <div className="col-md-6">
+                <ProductCardLeft/>
+            </div>
+            <div className="col-md-6">
+                <ProductCardRight/>
             </div>
         </div>
     </div>
